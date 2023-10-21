@@ -1,10 +1,10 @@
 import React from 'react'
-import SectionOne from './SectionOne'
+
 
 const Navbar = () => {
   return (
     <>
-    <div className="container flex justify-center items-center w-[1440px] h-[96px]">
+    <header className="container flex justify-center items-center w-[1440px] h-[96px]">
         <div className="flex-1 justify-center items-center flex">
             <h1 
                 className="w-56 h-10 font-bold text-2xl leading-9 items-center text-[#012A4A]"
@@ -38,8 +38,7 @@ const Navbar = () => {
                 </li>
             </ul>
         </div>
-    </div>
-    <SectionOne />
+    </header>
     </>
     
   )

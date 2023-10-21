@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
 
 
 function App() {
@@ -8,8 +8,8 @@ function App() {
       <di>
        <BrowserRouter>
        <Routes>
-        <Route index element={<Navbar />} />
-        <Route path="/" element={<Navbar />} />
+        <Route index element={<HomePage/>} />
+        <Route path="/" element={<HomePage />} />
        </Routes>
 
        </BrowserRouter>
