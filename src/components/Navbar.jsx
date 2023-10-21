@@ -11,7 +11,7 @@ const Navbar = () => {
                 </h1>
         </div>
         <div className="flex-1 w-11 h-5 font-bold text-base leading-5">
-            <ul className="flex justify-center space-x-4 items-center">
+            <ul className="flex justify-center space-x-4 items-center cursor-pointer hover:cursor-pointer">
                 <li>
                     <a className="text-[#4361EE]">Home</a>
                 </li>
