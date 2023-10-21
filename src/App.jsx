@@ -9,6 +9,7 @@ function App() {
        <BrowserRouter>
        <Routes>
         <Route index element={<Navbar />} />
+        <Route path="/" element={<Navbar />} />
        </Routes>
 
        </BrowserRouter>
