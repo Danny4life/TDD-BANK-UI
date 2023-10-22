@@ -1,4 +1,5 @@
 import React from 'react'
+import CreateAccountBtn from './CreateAccountBtn'
 
 const SectionOne = () => {
   return (
@@ -11,7 +12,7 @@ const SectionOne = () => {
                 anytime & anyday.
             </p>
             <div className="pt-12">
-                
+                <CreateAccountBtn />
             </div>
             
         </div>
