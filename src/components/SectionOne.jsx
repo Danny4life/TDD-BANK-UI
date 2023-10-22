@@ -1,5 +1,8 @@
 import React from 'react'
 import CreateAccountBtn from './CreateAccountBtn'
+import imgOne from "../assets/imgone.png";
+import ImageOne from '../svg/ImageOne';
+import ImageTwo from '../svg/imageTwo';
 
 const SectionOne = () => {
   return (
@@ -18,8 +21,12 @@ const SectionOne = () => {
         </div>
        
     </div>
-    <div className="flex-1">
-        2
+    <div className="flex-1 pt-24 flex justify-center">
+        <div className="">
+            <ImageTwo />
+            <img src={imgOne} alt="sectionOne-image" className="rounded-full" />
+            <ImageOne />
+        </div>
     </div>
 
     </section>
