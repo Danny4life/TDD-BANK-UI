@@ -5,6 +5,7 @@ import payImg from "../assets/pay.png";
 
 const ImageOne = () => {
   return (
+
     <div className="w-[178px] h-[145px] bg-white relative bottom-64 right-24">
       <div className="flex items-center space-x-2 ml-2 pt-4">
         <img src={arrowImg} className="w-[24px] h-[24px]" />
@@ -20,6 +21,7 @@ const ImageOne = () => {
       </div>
       
     </div>
+    
   );
 };
 

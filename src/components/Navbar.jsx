@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <>
-    <header className="container flex justify-center items-center w-[1440px] h-[96px]">
+    <header className="flex justify-center items-center w-full h-[96px] fixed top-0 bg-white z-10">
         <div className="flex-1 justify-center items-center flex">
             <h1 
                 className="w-56 h-10 font-bold text-2xl leading-9 items-center text-[#012A4A]"
@@ -29,7 +29,7 @@ const Navbar = () => {
             </ul>
         </div>
         <div className="flex-1 font-bold text-base leading-5">
-            <ul className="flex justify-end space-x-10 items-center cursor-pointer hover:cursor-pointer">
+            <ul className="flex justify-center space-x-10 items-center cursor-pointer hover:cursor-pointer">
                 <li>
                     <a className="w-11 h-5">Login</a>
                 </li>

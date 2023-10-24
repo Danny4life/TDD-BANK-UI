@@ -6,7 +6,7 @@ import imgFour from "../assets/imgFour.png";
 
 const SectionTwo = () => {
   return (
-    <section className="w-[1440px] h-[742px] bg-[white] flex">
+    <section className="w-full h-[742px] bg-[white] flex">
       <div className="flex-1 justify-center ml-10 pt-48 flex">
         <div className="">
           <h1 className="w-[605px] h-[183px] font-bold text-5xl leading-[60.51px] text-[#3A0CA3]">
