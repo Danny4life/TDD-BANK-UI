@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import SectionOne from '../components/SectionOne'
+import SectionTwo from '../components/SectionTwo'
 
 const HomePage = () => {
   return (
@@ -10,6 +11,9 @@ const HomePage = () => {
         </header>
         <section>
             <SectionOne />  
+        </section>
+        <section>
+            <SectionTwo />  
         </section>
        
        
