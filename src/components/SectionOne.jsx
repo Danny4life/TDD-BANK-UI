@@ -7,7 +7,7 @@ import ImageTwo from '../svg/imageTwo';
 const SectionOne = () => {
   return (
     <section className="w-full h-[742px] bg-[#D8F3DC] flex">
-    <div className="flex-1 justify-center ml-10 pt-48 flex">
+    <div className="flex-1 justify-center ml-20 pt-48 flex">
         <div className="">
             <h1 className="w-[605px] h-[183px] font-bold text-5xl leading-[60.51px] text-[#3A0CA3]">
             Quick and easy payment platform for all your transactions</h1>
