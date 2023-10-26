@@ -74,9 +74,44 @@ const SectionFour = () => {
         </div>
       </section>
       <section>
-        <div className="">
-          <h1>Hear from our customers</h1>
+        <div className="flex flex-col justify-center items-center pt-20">
+          <h1 className="w-[491px] h-[48px] font-bold text-4xl leading-10 text-[#3A0CA3] text-center">Hear from our customers</h1>
+          <p className="w-[396px] h-[48px] font-normal text-base leading-6 text-[#012A4A] text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat
+                eget ipsum, sed praesent.
+          </p>
         </div>
+        <section className="flex flex-col justify-center items-center pt-10">
+            <div className="flex gap-4 pb-6">
+                <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
+                    <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
+                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
+                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </div>
+            <div className="flex gap-4">
+                <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
+                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
+                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+                <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
+                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                </div>
+            </div>
+        </section>
+        
       </section>
     </section>
   );
