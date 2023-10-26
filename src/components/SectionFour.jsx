@@ -88,26 +88,27 @@ const SectionFour = () => {
                     <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
-                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
                     <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
-                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
                     <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
             </div>
             <div className="flex gap-4">
                 <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
-                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
                     <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
-                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
                     <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                 </div>
                 <div className="w-[374px] h-[218px] px-8 py-8 bg-slate-200">
-                <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
-                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <h4 className="w-[138px] h-[26px] font-semibold text-base leading-7 text-[#012A4A]">Adekola Johnson</h4>
+                    <p className="w-[326px] h-[104px] font-normal text-base leading-7 text-[#012A4A] pt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat eget ipsum, sed praesent. Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                    </p>
                 </div>
             </div>
         </section>
