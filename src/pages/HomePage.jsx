@@ -21,7 +21,7 @@ const HomePage = () => {
         <section>
             <SectionThree />  
         </section>
-        <section>
+        <section className="pb-10">
             <SectionFour />  
         </section>
         <footer>
