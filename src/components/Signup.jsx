@@ -1,5 +1,8 @@
 import React from 'react'
 import person from "../assets/person.png";
+import email from "../assets/emailImg.png";
+import phone from "../assets/phoneImg.png";
+import clock from "../assets/clockImg.png";
 import signup from "../assets/signupImg.png";
 
 const Signup = () => {
@@ -11,32 +14,32 @@ const Signup = () => {
             <div className="pt-12">
                 <form className="pb-8">
                     <label className="w-[83px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">First Name</label>
-                    <input type="text" placeholder="Enter your first name"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80  text-base" />
+                    <input type="text" placeholder="Enter your first name"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 text-base p-2 pl-10 font-light" />
                     <img src={person} className="relative bottom-9 ml-4" />
+                    
                     <label className="w-[83px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">Last Name</label>
-                    <input type="text" placeholder="Enter your last name"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80" />
+                    <input type="text" placeholder="Enter your last name"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 p-2 pl-10  font-light" />
                     <img src={person} className="relative bottom-9 ml-4" />
                     <label className="w-[83px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">Email</label>
-                    <input type="email" placeholder="Enter your email"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 " />
-                    <img src={person} className="relative bottom-9 ml-4" />
+                    <input type="email" placeholder="Enter your email"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 p-2 pl-10 font-light" />
+                    <img src={email} className="relative bottom-[29.5px] ml-4" />
                     <label className="w-[114px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">Phone Number</label>
-                    <input type="number" placeholder="Enter phone number"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 " />
-                    <img src={person} className="relative bottom-9 ml-4" />
+                    <input type="number" placeholder="Enter phone number"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 p-2 pl-10 font-light" />
+                    <img src={phone} className="relative bottom-9 ml-4" />
                     <label className="w-[83px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">BVN</label>
-                    <input type="number" placeholder="Enter your BVN"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80" />
-                    <img src={person} className="relative bottom-9 ml-4" />
+                    <input type="number" placeholder="Enter your BVN"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80  font-light" />
                     <label className="w-[83px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">Password</label>
-                    <input type="password" placeholder="Enter password"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80" />
-                    <img src={person} className="relative bottom-9 ml-4" />
+                    <input type="password" placeholder="Enter password"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 p-2 pl-10 font-light" />
+                    <img src={clock} className="relative bottom-9 ml-4" />
                     <label className="w-[141px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">Confirm Password</label>
-                    <input type="password" placeholder="confirm password"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80" />
-                    <img src={person} className="relative bottom-9 ml-4" />
+                    <input type="password" placeholder="Confirm password"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80 p-2 pl-10  font-light" />
+                    <img src={clock} className="relative bottom-9 ml-4" />
                     <label className="w-[83px] h-[24px] font-medium text-base leading-6 text-[#012A4A] block">Pin</label>
-                    <input type="number" placeholder="Enter transaction pin"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80" />
-                    <img src={person} className="relative bottom-9 ml-4" />
-                    <button type="button" className="w-[396px] h-[48px] rounded-md border py-4 px-8 text-white bg-[#4361EE] text-base font-semibold flex justify-center items-center cursor-pointer hover:cursor-pointer">Sign up</button>
+                    <input type="number" placeholder="Enter transaction pin"  className="w-[395px] h-[48px] rounded-md border py-2 px-4 opacity-80  font-light" />  
                 </form>
-                <p><span className="w-[233px] h-[24px] font-bold text-base leading-6 cursor-pointer">Already have an account? Login</span></p>
+                <button type="button" className="w-[396px] h-[48px] rounded-md border py-4 px-8 text-white bg-[#4361EE] text-base font-semibold flex justify-center items-center cursor-pointer hover:cursor-pointer">Sign up</button>
+
+                <p className="pt-8"><span className="w-[233px] h-[24px] font-bold text-base leading-6 cursor-pointer">Already have an account? Login</span></p>
             </div>       
         </div>
         <div className="flex-1">
